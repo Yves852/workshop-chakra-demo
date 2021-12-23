@@ -30,6 +30,19 @@ const Cart = () => (
         <AspectRatio ratio={1} w={24}>
           <Img src={"./board.png"} alt="Board image" />
         </AspectRatio>
+        <Stack
+          spacing={0}
+          w={"full"}
+          direction={"row"}
+          justifyContent={"space-between"}
+          alignItems={"center"}
+        >
+          <VStack>
+            <Heading size={"sm"}>Penny board</Heading>
+            <Text>PNYCOMP27541</Text>
+          </VStack>
+          <Heading size={"sm"}>$119.00</Heading>
+        </Stack>
       </HStack>
     </VStack>
   </VStack>
