@@ -44,6 +44,20 @@ const Cart = () => (
           <Heading size={"sm"}>$119.00</Heading>
         </Stack>
       </HStack>
+      <VStack spacing={4} alignItems={"stretch"} w={"full"}>
+        <HStack justifyContent={"space-between"}>
+          <Text>Subtotal</Text>
+          <Heading size={"sm"}>$119.00</Heading>
+        </HStack>
+        <HStack justifyContent={"space-between"}>
+          <Text>Shipping</Text>
+          <Heading size={"sm"}>$19.99</Heading>
+        </HStack>
+        <HStack justifyContent={"space-between"}>
+          <Text>Taxes (estimated)</Text>
+          <Heading size={"sm"}>$23.80</Heading>
+        </HStack>
+      </VStack>
     </VStack>
   </VStack>
 );
