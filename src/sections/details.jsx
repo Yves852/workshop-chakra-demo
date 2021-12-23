@@ -8,6 +8,8 @@ import {
   FormLabel,
   Input,
   Select,
+  Checkbox,
+  Button,
 } from "@chakra-ui/react";
 
 const Details = () => (
@@ -58,6 +60,14 @@ const Details = () => (
             <option value="de">Germany</option>
           </Select>
         </FormControl>
+      </GridItem>
+      <GridItem colSpan={2}>
+        <Checkbox defaultChecked>Ship to billing adress.</Checkbox>
+      </GridItem>
+      <GridItem colSpan={2}>
+        <Button size="lg" w="full">
+          Place order
+        </Button>
       </GridItem>
     </SimpleGrid>
   </VStack>
