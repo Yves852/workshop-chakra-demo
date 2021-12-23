@@ -9,8 +9,10 @@ const Details = () => (
     spacing={10}
     alignItems={"flex-start"}
   >
-    <Heading>Your details</Heading>
-    <Text>If you already have an account, click here to login.</Text>
+    <VStack spacing={3} alignItems={"flex-start"}>
+      <Heading size={"2xl"}>Your details</Heading>
+      <Text>If you already have an account, click here to login.</Text>
+    </VStack>
   </VStack>
 );
 
