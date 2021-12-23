@@ -1,4 +1,13 @@
-import { VStack, Heading, Text, Button } from "@chakra-ui/react";
+import {
+  Stack,
+  HStack,
+  VStack,
+  Heading,
+  Text,
+  Button,
+  Img,
+  AspectRatio,
+} from "@chakra-ui/react";
 
 const Cart = () => (
   <VStack
@@ -17,6 +26,11 @@ const Cart = () => (
           try changing the theme.
         </Button>
       </Text>
+      <HStack spacing={6} alignItems={"center"} w={"full"}>
+        <AspectRatio ratio={1} w={24}>
+          <Img src={"./board.png"} alt="Board image" />
+        </AspectRatio>
+      </HStack>
     </VStack>
   </VStack>
 );
