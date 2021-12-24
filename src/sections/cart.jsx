@@ -1,4 +1,5 @@
 import {
+  Divider,
   Stack,
   HStack,
   VStack,
@@ -59,6 +60,11 @@ const Cart = () => (
         </HStack>
       </VStack>
     </VStack>
+    <Divider borderColor={"lightgray"} />
+    <HStack justifyContent={"space-between"} w={"full"}>
+      <Text>Total</Text>
+      <Heading size={"lg"}>$162.79</Heading>
+    </HStack>
   </VStack>
 );
 
