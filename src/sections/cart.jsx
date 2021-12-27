@@ -1,4 +1,6 @@
 import {
+  useColorMode,
+  useColorModeValue,
   Divider,
   Stack,
   HStack,
@@ -11,6 +13,9 @@ import {
 } from "@chakra-ui/react";
 
 const Cart = () => {
+  const { toggleColorMode } = useColorMode();
+  const bgColor = useColorModeValue("gray.50", "whiteAlpha.50");
+
   return (
     <VStack
       w={"full"}
@@ -18,13 +23,17 @@ const Cart = () => {
       spacing={6}
       p={10}
       alignItems={"flex-start"}
-      bg="gray.200"
+      bg={bgColor}
     >
       <VStack w={"full"} spacing={3} alignItems={"flex-start"}>
         <Heading size={"2xl"}>Your cart</Heading>
         <Text>
           If price is too hard on your eyes,{" "}
-          <Button variant={"link"} colorScheme={"black"}>
+          <Button
+            variant={"link"}
+            colorScheme={"black"}
+            onClick={toggleColorMode}
+          >
             try changing the theme.
           </Button>
         </Text>
