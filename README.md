@@ -8,9 +8,11 @@
 </ul>
 <br>
 
+[create-react-app](create-react-app-readme.md)
+
 > Je recommande de consulter ce document en mode _preview_ avec VScode.<br>
 >
-> `ctrl + maj + v ` **OU**` `Clique droit onglet > open preview
+> `ctrl + maj + v` **OU** Clique droit onglet > open preview
 
 <br>
 
