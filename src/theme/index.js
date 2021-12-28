@@ -32,6 +32,17 @@ const theme = extendTheme(
           color: mode("gray.600", "gray.400")(props),
         }),
       },
+      Checkbox: {
+        baseStyle: {
+          control: {
+            borderRadius: "none",
+            _focus: {
+              ring: 2,
+              ringColor: "brand.500",
+            },
+          },
+        },
+      },
     },
   },
   withDefaultColorScheme({
