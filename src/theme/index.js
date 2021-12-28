@@ -6,6 +6,25 @@ import {
 } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
 
+const inputSelectStyles = {
+  variants: {
+    filled: {
+      field: {
+        _focus: {
+          borderColor: "brand.500",
+        },
+      },
+    },
+  },
+  sizes: {
+    md: {
+      field: {
+        borderRadius: "none",
+      },
+    },
+  },
+};
+
 const theme = extendTheme(
   {
     colors: {
@@ -43,6 +62,8 @@ const theme = extendTheme(
           },
         },
       },
+      Input: { ...inputSelectStyles },
+      Select: { ...inputSelectStyles },
     },
   },
   withDefaultColorScheme({
