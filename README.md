@@ -8,11 +8,7 @@
 </ul>
 <br>
 
-[create-react-app](create-react-app-readme.md)
-
-> Je recommande de consulter ce document en mode _preview_ avec VScode.<br>
->
-> `ctrl + maj + v` **OU** Clique droit onglet > open preview
+[create-react-app readme](create-react-app-readme.md)
 
 <br>
 
@@ -697,6 +693,8 @@ const Cart = () => (
 
 <br>
 
+# Mode sombre
+
 ## cart.jsx return statement
 
 ```diff
@@ -747,6 +745,8 @@ return (
 ```
 
 <br>
+
+# Page responsive
 
 ## Ajouter global responsive
 
@@ -827,6 +827,8 @@ import {
 ```
 
 <br>
+
+# Style global
 
 ## Style global #1 police
 
