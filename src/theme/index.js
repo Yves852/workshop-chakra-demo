@@ -4,6 +4,7 @@ import {
   withDefaultColorScheme,
   withDefaultVariant,
 } from "@chakra-ui/react";
+import { mode } from "@chakra-ui/theme-tools";
 
 const theme = extendTheme(
   {
@@ -24,6 +25,13 @@ const theme = extendTheme(
     fonts: {
       heading: `MontSerrat, ${base.fonts?.heading}`,
       body: `Inter, ${base.fonts?.body}`,
+    },
+    components: {
+      Text: {
+        baseStyle: (props) => ({
+          color: mode("gray.600", "gray.400")(props),
+        }),
+      },
     },
   },
   withDefaultColorScheme({
