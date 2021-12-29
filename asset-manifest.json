@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/workshop-chakra-demo/static/css/main.a3b1a529.css",
+    "main.js": "/workshop-chakra-demo/static/js/main.0cd8b5da.js",
+    "static/js/787.5ff4e7cd.chunk.js": "/workshop-chakra-demo/static/js/787.5ff4e7cd.chunk.js",
+    "index.html": "/workshop-chakra-demo/index.html",
+    "main.0cd8b5da.js.map": "/workshop-chakra-demo/static/js/main.0cd8b5da.js.map",
+    "787.5ff4e7cd.chunk.js.map": "/workshop-chakra-demo/static/js/787.5ff4e7cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3b1a529.css",
+    "static/js/main.0cd8b5da.js"
+  ]
+}
