@@ -2,6 +2,7 @@
   "name": "workshop-chakra-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yves852.github.io/workshop-chakra-demo/",
   "dependencies": {
     "@chakra-ui/react": "^1.7.3",
     "@emotion/react": "^11.7.1",
