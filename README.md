@@ -1,5 +1,7 @@
 # Workshop Chakra-ui
 
+[Demo](https://yves852.github.io/workshop-chakra-demo/)
+
 <ul style="list-style: none; color: darkgray">
 <li> date: 28 décembre 2021</li>
 <li> create-react-app: 5.0.0</li>
